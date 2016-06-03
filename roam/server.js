@@ -116,7 +116,13 @@ app.post('/roam', function(req, res) {
 		roamOffAfter += 	millisecondsUntilMidnight;
 	}
 
+<<<<<<< HEAD
 	function createGeoFence(lat, long, distInMiles) {
+=======
+	function getDistBetweenTwoLocs(coordA, coordB) {
+		// var radius: 20
+		// (x - userLatitude)^2 + (y - userLocation)^2 < radius^2;
+>>>>>>> d2680701f8b0e28ae0030d5e7110749aa8da1d68
 
     var dist = distInMiles * 1.60934; //convert to km
     var R = 6371e3;
