@@ -116,7 +116,7 @@ app.post('/roam', function(req, res) {
 		roamOffAfter += 	millisecondsUntilMidnight;
 	}
 
-	function matchWithinRadius(coordA, coordB) {
+	function getDistBetweenTwoLocs(coordA, coordB) {
 		// var radius: 20
 		// (x - userLatitude)^2 + (y - userLocation)^2 < radius^2;
 
