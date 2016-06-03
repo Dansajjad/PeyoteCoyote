@@ -40,6 +40,6 @@ module.exports = yelp;
 //sample Yelp query stringify
   //https://api.yelp.com/v2/search?term=german+food&location=Hayes&cll=37.77493,-122.419415
 //Minimal
-  //https://api.yelp.com/v2/search?term=food&ll=37.788022,-122.399797
+  //https://api.yelp.com/v2/search?term=bar&ll=37.788022,-122.399797
 //With geo-bounding
   //https://api.yelp.com/v2/search?term=food&bounds=37.900000,-122.500000|37.788022,-122.399797&limit=3

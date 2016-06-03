@@ -25,7 +25,6 @@
 
 //
   //Bars in SF
-
   //A User clicks roam
     //db checks other outstanding roams based on user coords
       //if another user is available
@@ -41,3 +40,22 @@
       //Search Yelp for (predefined wine query updated with the coordinates of 2nd user) {This has to be refined to included area between the 2 users}
 
   //Send confirmation to head to the location
+
+
+
+
+//Matching Algo
+
+//finding match
+  //Params: initiator, possible match array, Initiator's location
+
+  <!--
+  items in match array will be objects with following props
+  {
+    username,
+    lat,
+    long,
+    timestamp (when the user pressed Roam)
+    isActive
+  }
+  -->

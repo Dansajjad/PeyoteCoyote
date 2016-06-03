@@ -117,7 +117,7 @@ app.post('/roam', function(req, res) {
 	}
 
 	function createGeoFence(lat, long, distInMiles) {
-    
+
     var dist = distInMiles * 1.60934; //convert to km
     var R = 6371e3;
 
